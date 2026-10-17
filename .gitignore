@@ -1,0 +1,38 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Operating System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Machine Learning artifacts & serialized pipelines
+# Keep example models or ignore large binaries
+models/*.joblib
+!models/.gitkeep
+
+# Sensitive or private customer data
+data/private_*.csv
+data/uploaded_*.csv
+
+# Test and coverage artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs
+*.log
