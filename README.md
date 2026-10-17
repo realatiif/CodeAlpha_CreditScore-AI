@@ -315,32 +315,6 @@ When running the Streamlit dashboard (`streamlit run app.py`), the interface pro
 
 ---
 
-## 14. GitHub Publishing Instructions
-
-To publish this project to your GitHub profile:
-
-```powershell
-# 1. Initialize git repository
-git init
-
-# 2. Add files (sensitive data and .venv are automatically excluded by .gitignore)
-git add .
-
-# 3. Create initial commit
-git commit -m "feat: complete AI-powered credit scoring system with Streamlit dashboard and test suite"
-
-# 4. Rename default branch to main
-git branch -M main
-
-# 5. Link to your GitHub repository (replace with your repo URL)
-git remote add origin https://github.com/YOUR_USERNAME/credit-scoring-model.git
-
-# 6. Push code to GitHub
-git push -u origin main
-```
-
----
-
 ## 👨‍💻 Author & Acknowledgments
 - **Project**: AI-Powered Credit Scoring and Creditworthiness Prediction System
 - **Dataset**: Prof. Dr. Hans Hofmann, University of Hamburg / UCI Machine Learning Repository
